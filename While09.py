@@ -5,5 +5,11 @@ def main(s):
         s: str
     Returns:
         int: return answer
-    """
-    return
+    """ 
+    sum=0 
+    n=0
+    while n<len(s):
+        sum=sum+int(s[n]) 
+        n=n+1
+    return sum 
+print(main("987654"))
