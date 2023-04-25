@@ -6,4 +6,14 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    n=0
+    i=0
+    while n<len(s):
+        if s[n].isalpha():
+            i=i+1
+        n=n+1
+
+            
+        
+    return len(s)-i
+print(main("#hashtag@$"))
