@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    sum=0 
+    n=0
+    while n<len(s): 
+        if int(s[n])%2!=0:
+            sum=sum+int(s[n]) 
+        n=n+1
+    return sum 
+print(main("589765"))
+    
